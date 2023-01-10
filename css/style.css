@@ -1,0 +1,242 @@
+body{
+	margin: 0px 0px 0px 0px;
+}
+/* Login page Style */
+#login{
+	min-width: 100%;
+	max-height: 100%;
+	max-width: 100%;
+	min-height: 100vh;
+	background-image: url("../image/photo2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: all;
+	background-size: 100%; 
+}
+#login form{
+	min-height: 99.99vh;
+	min-width: 40%;
+	max-width: 40%;
+	max-height:100%;
+	margin: 0px auto;
+	border: 5px solid black;
+background-color: #eee;
+}
+#login form #massege{
+	margin-top: 30%;
+	display: flex;
+	flex-flow: column wrap;
+	margin-left: 35%;
+	font-size: 20px;
+	font-family: georgia;
+	font-weight: bold;
+}
+#login form .info{
+	margin-top: 3%;
+	display: flex;
+	flex-flow: row nowrap;
+	margin-left: 20%;
+	font-size: 20px;
+	font-family: georgia;
+	font-weight: bold;
+	width: 50%;
+	text-align: center;
+}
+#login form #submit{
+	text-align: center;
+	width: 50%;
+	margin-left: 20%;
+	margin-top: 5%;
+}
+/* Home page style */
+nav{
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 15vh;
+	max-height: 15%;
+	background-color: #111;
+	margin-top: -15px;
+}
+#homeMenu ol{
+	list-style-type: none;
+	display: flex;
+	flex-flow: row nowrap;
+
+}
+#homeMenu ol li{
+	margin-top: 2.5%;
+	margin-left: 2%;
+}
+#homeMenu ol li a{
+	text-decoration: none;
+	font-size: 17px;
+	color: #eee;
+	margin-top: 2.5%;
+}
+#homeMenu ol li a:hover{
+	color: blue;
+	font-size: 20px;
+}
+#container {
+	max-height: 50%;
+	min-height: 50vh;
+	min-width: 100%;
+	max-width: 100%;
+	border: 1px solid black;
+}
+#container #articl{
+	display: block;
+	border: 5px solid white;
+	max-width: 98%;
+	min-width: 98%;
+	min-height: 30vh;
+	max-height: 30%;
+}
+#container #articl img{
+	border: 5px solid white;
+	display: inline;
+	min-width: 23.40%;
+	max-width: 23.40%;
+	min-height: 20vh;
+	max-height: 20%;
+}
+#foot{
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 15vh;
+	max-height: 15%;
+	background-color: #111;
+}
+#foot a{
+	margin-top: 5% !important;
+	margin-left: 3%;
+	color: white;
+
+}
+#foot #f{
+	margin-left: 33%;
+}
+#foot a i{
+	margin-top: 2.5%;	
+}
+
+/*Detial Style */
+#detialBody{
+background-color:black;
+cap
+}
+#detial{
+	width: 50%;
+	min-width: 50%;
+	max-width: 50%;
+	min-height: 60vh;
+	max-height: 60%;
+	height: auto;
+	margin: 0px auto;
+	margin-top: 10%;
+	background-color: white;
+}
+#detial .than{
+ min-width: 10%;
+ max-width: 10%;
+ height: 100%;
+ display: inline;
+ float: left;
+ margin-top: 25%;
+ background-color: white;
+}
+#detial .than a{
+	text-decoration: none;
+	font-size: 30px;
+	margin-left: 30%;
+}
+#detial #lower{
+	margin-left:4%;
+}
+#detial img{
+	display: inline;
+	min-width: 70%;
+	max-width: 70%;
+	min-height: 60vh;
+	max-height: 60%;
+	float: left;
+	border: 3px solid red;
+}
+/* Logout Style */
+#homeMenu #logout{
+	float: right;
+	display: inline;
+	
+	margin: 2%;
+}
+#homeMenu #logout a{
+	color:white;
+	text-decoration: none;
+}
+/* List style */
+#listContainer {
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	min-height:100vh;
+	max-height: auto;
+	
+}
+#listContainer #row{
+	min-width: 100%;
+	max-width:100%;
+	min-height: 60vh;
+	max-height: 60%; 
+	display: block;
+	margin-bottom: 2%;
+}
+#listContainer #row .listArticl{
+	display: inline;
+	float: left;
+	min-width: 40%;
+	max-width: 40%;
+	min-height: 100%;
+	max-height: 100%;
+	border: 1px solid black;
+	margin-left: 7%;
+}
+#listContainer #row .listArticl img{
+	min-width: 90%;
+	max-width: 90%;
+	min-height: 60%;
+	max-height: 60%;
+	display: block;
+}
+#listContainer #row .listArticl a{
+	margin-left: 10%;
+	margin-top:4px;
+	font-size: 18px; 
+}
+/* Add, Edit and Delete Style */
+#changeForm{
+	width: 30%;
+	min-width: 30%;
+	max-width: 30%;
+	min-height: 40vh;
+	max-height: 45%;
+	margin: 0px auto;
+	margin-top: 15%;
+	display: flex;
+	flex-flow: column wrap;
+}
+#changeForm label{
+	margin: 0px auto;
+	font-size: 18px;
+	font-family: georgia;
+	font-style: italic;
+}
+#changeForm input{
+	margin: 0px auto;
+	font-size: 18px;
+	margin-top: 5%;
+}
+#changeForm #submit{
+	
+	background-color: blue;
+	font-size: 20px;
+
+}

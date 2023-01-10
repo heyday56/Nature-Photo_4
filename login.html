@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body onload="sayWelcome();">
+<div id="login">
+	<form method="get" onsubmit="return loginValidate();">
+		<label id="massege">Welcome</label>
+		<input class="info" type="text" name="username" id="username" placeholder="Username" required>
+		<input type="password" name="password" id="password" class="info" placeholder="Password" required>
+		<label id="errPass"></label>
+		<input type="submit" name="submit" id="submit" value="login" class="container bg-primary text-dark" >
+	</form>
+</div>
+<script type="text/javascript" src="script/javaScript.js"></script>
+<script type="text/javascript" src="script/bootstrap.min.js"></script>
+
+</body>
+</html>
